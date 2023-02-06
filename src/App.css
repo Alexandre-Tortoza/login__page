@@ -1,0 +1,57 @@
+.container{
+
+  align-items: center;
+  text-align: center;
+  margin:8rem 15rem 0rem;
+  padding: 2rem;
+  background-color:#ffffff;
+  box-shadow: 5px 5px 0px #f8b807;
+  border:2px solid black;
+
+}
+.tittle{
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.row{
+  text-align: center;
+  margin: 1rem;
+}
+.row input{
+  width: 30%;
+  border: 0;
+  border-bottom: 2px solid #000000;
+  outline: 0;
+}
+.line{
+  background-color: #f8b807;
+  height: 2px;
+}
+.btn{
+
+  padding: .5rem;
+  border: none;
+  background-color: #ffffff;
+  color: #f8b807; 
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 2rem;
+  transition: 1s;
+}
+.btn:hover{
+  background-color: #f8b807;
+  color: white; 
+}
+.error{
+  text-transform: uppercase;
+  color: red;
+}
+.dica{
+  margin-top: 1rem;
+  align-items: center;
+  text-align: center;
+  filter: opacity(20%);
+}
